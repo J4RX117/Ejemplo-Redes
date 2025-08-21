@@ -35,7 +35,7 @@ git push origin nombre
 # Unificar (fusionar) un branch en GitHub
 
 # Cambiar al branch invitado
-git checkout invitado
+git checkout juan
 
 # Fusionar el branch principal (main) en el branch invitado
 git merge main
@@ -45,6 +45,6 @@ git add .
 git commit -m "Unificación de cambios desde main a invitado"
 
 # Subir los cambios al repositorio remoto
-git push origin invitado
+git push origin juan
 
 # taller progra web 1
