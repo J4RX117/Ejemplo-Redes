@@ -32,4 +32,19 @@ git commit -m "Descripciondelcommit"
 git push origin nombredelarama
 git push origin nombre
 
+# Unificar (fusionar) un branch en GitHub
+
+# Cambiar al branch invitado
+git checkout invitado
+
+# Fusionar el branch principal (main) en el branch invitado
+git merge main
+
+# Si hay conflictos, resolverlos y hacer commit
+git add .
+git commit -m "Unificación de cambios desde main a invitado"
+
+# Subir los cambios al repositorio remoto
+git push origin invitado
+
 # taller progra web 1
